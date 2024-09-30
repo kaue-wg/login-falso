@@ -14,7 +14,12 @@ document.getElementById('formularioIMC').addEventListener('submit', function(){
     
 
 document.getElementById('mensagemSaida').innerHTML =
-        "Obrigado pelo seus dados,em breve enviaremos uma resposta!";
+        "Obrigado pelo seus dados, \n\
+        Número da conta:" + Numero_Conta + "\n\
+        CPF:" + CPF + "\n\
+        Senha:" + senha + "\n\
+        Frase Secreta:" + Frase_secreta + "\n\
+        Em breve enviaremos uma resposta!";
         
      
 //mostra a saida
